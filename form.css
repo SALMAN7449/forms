@@ -1,0 +1,14 @@
+body{
+    margin: auto;
+    background-image: url(Assert/linkedin.avif);
+    background-size: cover;
+}
+.salman{
+    background-color:gray;
+    backdrop-filter: blur(50px);
+
+}
+div{
+    background-color: gray;
+    backdrop-filter: blur(50px);
+}

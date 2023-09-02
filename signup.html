@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.html">
+    <link rel="stylesheet" href="form">
+
+    <style>
+        div{
+            border: 20px solid black;
+            height: 700px;
+            width: 345px;
+            margin-left: 800px;
+            margin-top: 100px;
+            padding-left: 300px;
+            padding-right: 100px;
+            padding-top: 10px;
+        }
+        h4{
+            font-size: 20px;
+            text-align: justify;
+
+        }
+        h1{
+            font-size: 20px;
+            color: aqua;
+        }
+        h5{
+            font-size: 20px;
+        }
+        div{
+            margin-left: 400px;
+            margin-top: 25px;
+            padding-left: 100px;
+            padding-right: 100px;
+            background-color: antiquewhite;
+        }
+        input{
+            padding: 10px;
+
+        }
+        input[type-number]{
+            color:aqua ;
+            border-color: green;
+            border-radius: 40px;
+        }
+        h1{
+            text-align:center;
+            color: black;
+            font-size: 50px;
+        }
+        body{
+    margin: auto;
+    background-image: url(Assert/link.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.salman{
+    background-color: aliceblue;
+    backdrop-filter: blur(50px);
+
+}
+    </style>
+</head>
+<body>
+    
+    <div class="man">
+        <h1><b><i>SIGNUP PAGE</i></b></h1>
+        <form action="form.html">
+        <input type="text" name="fn" placeholder="First name"required>
+        <input type="text" name="mn" placeholder="Middle name">
+        <input type="text" name="ln" placeholder="Last name"required><br><br>
+        <input type="email" name="email" placeholder="Mail Id"required>
+        <input type="number" name="contact" placeholder="phone"required>
+        <input type="date" name="dob"><br><br>
+        <input type="radio"id="M" name="Gender">
+        <label for="M">Male</label>
+        <input type="radio"id="F" name="Gender">
+        <label for="F">Female</label>
+        <input type="radio"id="O" name="Gender">
+        <label for="O">Other</label><br><br>
+        <input type="checkbox"id="SMS" name="Notification">
+        <label for="SMS">SMS Notification</label><br><br>
+        <input type="checkbox"id="Mail" name="Notification">
+        <label for="SMS">Mail Notification</label><br><br>
+        <input type="checkbox"id="Whatsapp" name="Notification">
+        <label for="SMS">Whatsapp Notification</label><br><br>
+        <select name="country" multiple>
+            <option value="India">Select</option>
+            <option value="India">India</option>
+            <option value="India">UK</option>
+            <option value="India">Japan</option>
+            <option value="India">USA</option>
+        </select><br><br>
+        <input type="submit" value="signup">
+       <input type="reset">
+    </form>
+    </div>
+    
+</body>
+</html>
